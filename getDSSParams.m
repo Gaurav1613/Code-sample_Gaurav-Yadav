@@ -1,5 +1,5 @@
 %Functionality: To obtain active power, reactive power, voltage magnitude, voltage angle for distributed generator (DG) and capacitor bank (CB) node,
-%               and per unit voltage, magnitude voltage and voltage angle at all the nodes.
+%               and per unit voltage, voltage magnitude and voltage angle at all the nodes.
 %
 %Inputs:
 %  caseFolder: folder name where circuit resides, 'c:\download\'; must have '\'.
