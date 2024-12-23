@@ -1,13 +1,6 @@
 Clear All
 
-!
-! This script is based on a script developed by Tennessee Tech Univ students
-! Tyler Patton, Jon Wood, and David Woods, April 2009
-!
-
 !------------------------------------------------------------Modified: Load Shape--------------------------------------------------------------
-
-
 New Loadshape.PQshape npts=8760 interval=1 mult=(file=hourlyLoadData_HI_Circuit_Year2021.txt) qmult=(file=hourlyLoadData_HI_Circuit_Year2021.txt)
 
 !--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -16,8 +9,6 @@ new circuit.CVRON
 ~ basekv=115 pu=1.0001 phases=3 bus1=SourceBus  
 ~ Angle=30                                                         ! advance angle 30 deg so result agree with published angle
 ~ MVAsc3=20000 MVASC1=21000    ! stiffen the source to approximate inf source
-
-
 
 !SUB TRANSFORMER DEFINITION 
 ! Although this data was given, it does not appear to be used in the test case results
