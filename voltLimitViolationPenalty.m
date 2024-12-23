@@ -1,4 +1,4 @@
-%% Functionality - To calculate the penalty for violating the lower and upper node voltage limit. This penalty factor is added to the fitness function to ensure that the voltage stays within the bound. 
+%% Functionality - To calculate the penalty for violating the lower or upper node voltage limit. This penalty factor is added to the fitness function to ensure that the voltage stays within the bound. 
 % 
 % Inputs:
 % nodeVoltMagpu: per unit voltage at all the nodes.
