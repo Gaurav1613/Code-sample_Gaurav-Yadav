@@ -23,7 +23,7 @@ DSSText.Command = ['Compile (', circuitName, ')'];
 numNode = length(nodeNames);
 keySet = nodeNames;
 valueSet = 1 : numNode;
-nodeNameMap = containers.Map(keySet, valueSet);
-nodeNumMap = containers.Map(valueSet, keySet);
+nodeNameMap = containers.Map(keySet, valueSet); % Mapping to obtain node names.
+nodeNumMap = containers.Map(valueSet, keySet); % Mapping to obtain node numbers.
 
 end
