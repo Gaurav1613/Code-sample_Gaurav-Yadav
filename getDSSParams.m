@@ -2,7 +2,6 @@
 %               and per unit voltage, voltage magnitude and voltage angle at all the nodes.
 %
 %Inputs:
-%  caseFolder: folder name where circuit resides, 'c:\download\'; must have '\'.
 %  circuitName: openDSS file name, e.g., 'IEEE13_NineDG_SinglePhase.dss'.
 %  curSimuSecond: The current second for which simulation is being performed, e.g., curSimuSecond = 5 means the power flow will run for the fifth second.
 %  hour: Power flow will run for this hour, e.g., hour = 5 means the power flow will run for the fifth hour.
