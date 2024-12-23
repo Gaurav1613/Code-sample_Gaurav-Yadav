@@ -3,7 +3,7 @@ This repository contains the files required to perform voltage regulation in a p
 
 **Main file**
 
-CodeSample_GauravYadav.m - This is the main file to be used to run GA optimization. 
+GAOptim_Main.m - This is the main file to be used to run GA optimization. 
 
 **Supporting files**
 1. getElementNamesAndCount.m - This element is used to obtain the total number of elements and the nodes to which they are connected.
