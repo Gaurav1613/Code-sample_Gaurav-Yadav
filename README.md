@@ -2,6 +2,7 @@
 This repository contains the files required to perform voltage regulation in a power distribution circuit using Genetic Algorithm (GA). The optimization has been performed using MATLAB and OpenDSS, connected through COM interface. Following are included to run the program:
 
 **Main file**
+
 CodeSample_GauravYadav.m - This is the main file to be used to run GA optimization. 
 
 **Supporting files**
