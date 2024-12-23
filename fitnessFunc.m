@@ -31,7 +31,6 @@ DSSText.Command = 'Set number=1  stepsize=1h';
 DSSText.Command = 'set controlmode=Time';
 DSSText.Command = 'set maxcontroliter=1000';
 
-DG = DSSCircuit.Generators; %Returns a Generators object interface
 Cap = DSSCircuit.Capacitors; %Returns a Capacitors object interface
 Lines = DSSCircuit.Lines; %Returns a Lines object interface
 regCtrl = DSSCircuit.RegControls; %Returns a RegControl object interface
