@@ -2,9 +2,8 @@
 % 
 %Inputs:
 %  x: Column vector of unknown variables involved in GA optimization, of order nvars x 1, where nvar is the number of unknown variables.
-%     x = [Tap3phaseTransformer1, Tap3phaseTransformer2, TapTransformer3, TapTransformer4, TapTransformer5, m_CB1, m_CB2, m_CB3, m_CB4, QDG1, QDG2, QDG3, QDG4, QDG5, QDG6, QDG7, QDG8, QDG9] 
+%     x = [Tap3phaseTransformer1, Tap3phaseTransformer2, TapTransformer3, TapTransformer4, TapTransformer5, m_CB1, m_CB2, m_CB3, m_CB4] 
 %  hour: Power flow will run for this hour, e.g., hour = 5 means the power flow will run for the fifth hour.
-%  caseFolder: folder name where circuit resides, 'c:\download\'; must have '\'.
 %  circuitName: openDSS file name, e.g., 'IEEE13FirstLayerCircuit.dss'.
 %  lowerVoltLimit: Lower bound for the node voltages. It is 114V, i.e., 0.95 p.u. (for a base voltage of 120 V) as per ANSI standards.
 %  upperVoltLimit: Upper bound for the node voltages. It is 126V, i.e., 1.05 p.u. (for a base voltage of 120 V) as per ANSI standards.
@@ -90,7 +89,7 @@ end
 totalInputPQ = [sum(tmpPQ(1:3,1)), sum(tmpPQ(1:3,2))];
 totalInputP = totalInputPQ(1);
 
-%% Calculate voltage and current limit violation penalties
+%% Calculate voltage limit violation penalties
 voltLimitPenalty = voltLimitViolationPenalty(nodeVoltMagpu, nodeVoltBase, lowerVoltLimit, upperVoltLimit, voltLimViolPenaltyFactor);
 
 %% Calculate the fitness function
