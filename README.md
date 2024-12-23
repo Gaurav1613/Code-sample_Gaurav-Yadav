@@ -13,7 +13,7 @@ GAOptim_Main.m - This is the main file to be used to run GA optimization.
 5. getDSSParams.m - This function is used to obtain optimal value of the voltage and power parameters of the given OpenDSS file.
 6. voltLimitViolationPenalty - This function is used to ensure node voltage remain within the ANSI bounds during GA optimization.
 7. IEEE13Bus.dss - This is the OpenDSS file for a modified IEEE 13-bus distribution circuit.
-8. IEEELineCodes.dss - This is the OpenDSS line defining the line parameters for the modified IEEE 13-bus distribution circuit.
+8. IEEELineCodes.dss - This is the OpenDSS file defining the line parameters for the modified IEEE 13-bus distribution circuit.
 9. IEEE13Node_BusXY.csv - This is the .csv file defining the location of buses in the modified IEEE 13-bus distribution circuit.
 10. Norm_AnnualSolarIrrad_2021.mat - This is the MATLAB data file containing normalized annual solar irradiance data for year 2021.
 11. hourlyLoadData_HI_Circuit_Year2021.txt - This is the text file containing the load profile for a local distribution utility for year 2021.
